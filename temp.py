@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 #Construimos el objeto plt introduciendo valores que se grafican contra el numero de entrada. Por ejemplo si queremos graficar el crecimiento de un material por dia en centimetros. 
 plt.plot([1,1,1,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,3,3])
 #Con esta isntruccion colocamos un titulo al eje Y de la grafica. 
+plt.xlabel('anios de vida')
 plt.ylabel('numero de hermanos partir de mi nacimiento')
 #Con esta isntruccion guardamos la imagen con el formato que queramos.
 plt.savefig('temp.png')
